@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Estudiantes.AccesoDatos\Estudiantes.AccesoDatos.csproj" />
+    <ProjectReference Include="..\Estudiantes.Educacion\Estudiantes.Educacion.csproj" />
+    <ProjectReference Include="..\Estudiantes.Entidad\Estudiantes.Entidad.csproj" />
+    <ProjectReference Include="..\Estudiantes.Implementacion\Estudiantes.Implementacion.csproj" />
+  </ItemGroup>
+
+</Project>
